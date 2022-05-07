@@ -1,0 +1,124 @@
+.close {
+   display: flex;
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   outline: transparent;
+
+   width: 30px;
+   height: 30px;
+   align-items: center;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal > button {
+   cursor: pointer;
+
+   border-radius: 50%;
+   background: #ffffff;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.close:focus-within .icon-close {
+   fill: #2196f3;
+}
+.wraper-form {
+   /* outline: 1px dashed #56ff47; */
+   text-align: center;
+}
+
+.form-backdrop {
+   text-align: center;
+   margin: 0 auto;
+}
+.title-form {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.15;
+   letter-spacing: 0.03em;
+   color: var(--title-color);
+   margin-bottom: 12px;
+}
+.style {
+   width: 100%;
+
+   border: 1px solid rgba(33, 33, 33, 0.2);
+   box-sizing: border-box;
+   border-radius: 4px;
+}
+.form-list input {
+   outline: transparent;
+   padding: 14px;
+   padding-left: 45px;
+   display: block;
+   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-item {
+   border-color: transparent;
+   display: flex;
+   position: relative;
+
+   flex-direction: column;
+   align-items: flex-start;
+   margin-bottom: 10px;
+   /* background-color: rgb(167, 179, 233); */
+}
+.form-item:focus-within .style,
+.form-item:active .style {
+   border-color: var(--color-icon);
+}
+.form-item:focus-within .form-incons {
+   fill: var(--color-icon);
+}
+.form-incons {
+   position: absolute;
+   top: 50%;
+   left: 5%;
+   fill: var(--title-color);
+
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-item label {
+   margin-bottom: 4px;
+   font-size: 12px;
+   line-height: 1.16;
+   letter-spacing: 0.01em;
+}
+.form-item textarea {
+   resize: none;
+   height: 120px;
+   padding: 12px 16px;
+   margin-bottom: 20px;
+   outline: transparent;
+   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-checkbox a {
+   text-decoration: underline;
+   color: var(--color-icon);
+}
+.form-list {
+   margin-bottom: 30px;
+}
+.check-label {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.check-span {
+   display: flex;
+   align-items: center;
+   width: 16px;
+   height: 15px;
+   border: 2px solid #212121;
+   margin-right: 7px;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-check:checked + .check-span {
+   background-color: #2196f3;
+   border-color: transparent;
+   overflow: hidden;
+}
+.input-check:focus + .check-span {
+   border-color: var(--color-icon);
+} 

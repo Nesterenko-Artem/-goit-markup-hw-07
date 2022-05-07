@@ -1,0 +1,30 @@
+.masters-soc-link {
+   width: 44px;
+   height: 44px;
+   
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #afb1b8;
+   transition: color 250ms, background 200ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus {
+   background: $color-icon;
+   color: #fff;
+}
+}
+
+.masters-soc-list {
+   display: flex;
+   justify-content: center;
+}
+
+.masters-soc-item + .masters-soc-item {
+   margin-left: 10px;
+}
+
+.masters-soc-icons {
+   fill: currentColor;
+}

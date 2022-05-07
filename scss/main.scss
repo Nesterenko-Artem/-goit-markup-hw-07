@@ -3,16 +3,25 @@
 @import "./utils/hidden";
 
 ////////////////////////////////////////
+@import "./components/title";
 @import "./components/cotener";
 @import "./components/body";
 @import "./components/heder";
 @import "./components/logo";
 
 @import "./components/hiro";
+@import "./components/button";
+@import "./components/soc-list-icons";
+@import "./components/section-1";
+@import "./components/section-2";
+@import "./components/section-3";
+@import "./components/section-4";
 
+@import "./components/backdrop";
+@import "./components/backdrop-form";
 
-// @import "./components/reset";
-// @import "./components/reset";
+@import "./components/futter";
+@import "./components/futter-form";
 // @import "./components/reset";
 // @import "./components/reset";
 // @import "./components/reset";

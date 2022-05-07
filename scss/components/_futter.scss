@@ -1,0 +1,56 @@
+.futter {
+   background-color: $bgc;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+.futter .cotener {
+   text-align: start;
+}
+
+.futter .logo {
+   color: #ffffff;
+   display: block;
+   margin-bottom: 20px;
+   padding: 0;
+}
+
+.adress-item {
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: $let-spas;
+}
+.adress-item:not(:last-child) {
+   margin-bottom: 9px;
+}
+
+.adress-item a {
+   color: rgba(255, 255, 255, 0.6);
+}
+a[href*="https"] {
+   color: #ffffff;
+}
+
+.tumb-futter-list {
+   display: flex;
+   align-items: baseline;
+}
+.tumb-futter-list-items + .tumb-futter-list-items {
+   margin-left: 75px;
+}
+.futter .section-title {
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
+   color: #ffffff;
+   margin-bottom: 20px;
+   text-align: start;
+}
+.soc {
+   background: rgba(255, 255, 255, 0.1);
+   color: #ffffff;
+   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

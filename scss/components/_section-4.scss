@@ -1,0 +1,27 @@
+.company-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.company-list-link {
+   width: 170px;
+   height: 92px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #afb1b8;
+   border: 1px solid #afb1b8;
+   border-radius: 4px;
+   transition: color 250ms, border-color 200ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus {
+   color: $color-icon;
+   border-color: $color-icon;
+}
+}
+.company-incons {
+   fill: currentColor;
+}
+
