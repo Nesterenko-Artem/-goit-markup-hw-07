@@ -2,11 +2,21 @@
    background-color: $bgc;
    padding-top: 60px;
    padding-bottom: 60px;
+   & .section-title {
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #ffffff;
+   margin-bottom: 20px;
+   text-align: start;
+   };
+   
 }
 
-.futter .cotener {
-   text-align: start;
-}
+// & .cotener {
+//    text-align: start;
+//    }
 
 .futter .logo {
    color: #ffffff;
@@ -39,16 +49,7 @@ a[href*="https"] {
 .tumb-futter-list-items + .tumb-futter-list-items {
    margin-left: 75px;
 }
-.futter .section-title {
-   font-size: 14px;
-   line-height: 1.14;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
 
-   color: #ffffff;
-   margin-bottom: 20px;
-   text-align: start;
-}
 .soc {
    background: rgba(255, 255, 255, 0.1);
    color: #ffffff;

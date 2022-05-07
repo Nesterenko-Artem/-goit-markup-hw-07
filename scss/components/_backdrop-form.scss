@@ -5,23 +5,26 @@
    right: 8px;
    outline: transparent;
 
+   border-radius: 50%;
+   background: #ffffff;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+
    width: 30px;
    height: 30px;
    align-items: center;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus{
+      cursor: pointer;
+      background-color: rgba(233, 211, 211, 0.562);
+   };
+   &:focus-within .icon-close,
+   &:hover .icon-close {
+      fill: #2196f3;
+   }
 }
-.modal > button {
-   cursor: pointer;
 
-   border-radius: 50%;
-   background: #ffffff;
-   border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.close:focus-within .icon-close {
-   fill: #2196f3;
-}
 .wraper-form {
-   /* outline: 1px dashed #56ff47; */
    text-align: center;
 }
 
@@ -34,7 +37,7 @@
    font-size: 20px;
    line-height: 1.15;
    letter-spacing: 0.03em;
-   color: var(--title-color);
+   color: $title-color;
    margin-bottom: 12px;
 }
 .style {
@@ -49,6 +52,7 @@
    padding: 14px;
    padding-left: 45px;
    display: block;
+   background-color: #fff;
    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -60,22 +64,29 @@
    flex-direction: column;
    align-items: flex-start;
    margin-bottom: 10px;
-   /* background-color: rgb(167, 179, 233); */
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover{
+      color: $color-icon;
+   };
+   &:focus-within .style,
+   &:active .style ,
+   &:hover .style {
+   border-color:$color-icon;
+   background-color: rgba(164, 168, 187, 0.1);
+   };
 }
-.form-item:focus-within .style,
-.form-item:active .style {
-   border-color: var(--color-icon);
-}
-.form-item:focus-within .form-incons {
-   fill: var(--color-icon);
-}
+
 .form-incons {
    position: absolute;
    top: 50%;
    left: 5%;
-   fill: var(--title-color);
+   fill: $title-color;
 
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   .form-item:focus-within & ,
+   .form-item:hover & {
+   fill:$color-icon;
+   }
 }
 
 .form-item label {
@@ -83,6 +94,7 @@
    font-size: 12px;
    line-height: 1.16;
    letter-spacing: 0.01em;
+   
 }
 .form-item textarea {
    resize: none;
@@ -94,7 +106,7 @@
 }
 .form-checkbox a {
    text-decoration: underline;
-   color: var(--color-icon);
+   color:$color-icon;
 }
 .form-list {
    margin-bottom: 30px;
@@ -112,13 +124,17 @@
    border: 2px solid #212121;
    margin-right: 7px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.input-check:checked + .check-span {
+   .input-check:checked + & {
    background-color: #2196f3;
    border-color: transparent;
    overflow: hidden;
+   };
+   
+   .input-check:focus + & {
+   border-color: $color-icon;
+   };
+
 }
-.input-check:focus + .check-span {
-   border-color: var(--color-icon);
-} 
+
+
