@@ -1,13 +1,14 @@
-:root {
+/* 
+ * :root {
    --brend-color: #757575;
    --title-color: #212121;
    --bgc: #2f303a;
    --l-s: 0.03em;
    --bgc-body: #e5e5e5;
    --color-icon: #2196f3;
-}
+} */
 
-/* -------------------обнуление----------- */
+/* -------------------обнуление----------- *
 h1,
 h2,
 h3,
@@ -24,7 +25,7 @@ ul {
 
 a {
    text-decoration: none;
-}
+}  */
 
 /* -------------------обнуление----------- */
 
@@ -498,7 +499,7 @@ a[href*="https"] {
 } */
 
 /* ------------------ portfolio------------------- */
-.btn-radio {
+/* .btn-radio {
    padding: 94px 0;
 }
 
@@ -535,9 +536,9 @@ a[href*="https"] {
 }
 .btn-items:not(:last-child) {
    margin-right: 8px;
-}
+} */
 
-.image-card a {
+/* .image-card a {
    color: var(--brend-color);
    font-size: 16px;
    line-height: 1.88;
@@ -573,8 +574,8 @@ a[href*="https"] {
    letter-spacing: var(--l-s);
 
    color: var(--brend-color);
-}
-.btn-items button:hover,
+} */
+/* .btn-items button:hover,
 .btn-items button:focus {
    display: block;
    text-align: center;
@@ -585,14 +586,14 @@ a[href*="https"] {
    min-width: 73px;
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    border-radius: 4px;
-}
+} */
 /* .link.portfolio, */
-.link.activ {
+/* .link.activ {
    color: var(--color-icon);
    position: relative;
-}
+} */
 
-.img-grid {
+/* .img-grid {
    display: flex;
    flex-wrap: wrap;
 }
@@ -641,7 +642,7 @@ a[href*="https"] {
 .grid-items a:hover .hiden-card,
 .grid-items a:focus .hiden-card {
    transform: translateY(0);
-}
+} */
 
 /* -------------- backdrop ----------- */
 
