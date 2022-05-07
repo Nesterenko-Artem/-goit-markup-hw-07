@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AECA,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,CAAC,AAAC,CACC,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACZ,AAED,AAAA,EAAE,AAAC,CACA,UAAU,CAAE,IAAI,CAClB,AAED,AAAA,CAAC,AAAC,CACC,eAAe,CAAE,IAAI,CACvB",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/components/_preferens.scss",
+        "../../scss/components/_reset.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
