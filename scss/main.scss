@@ -1,2 +1,23 @@
-@import "./components/preferens";
-@import "./components/reset";
+@import "./utils/variables";
+@import "./utils/reset";
+@import "./utils/hidden";
+
+////////////////////////////////////////
+@import "./components/cotener";
+@import "./components/body";
+@import "./components/heder";
+@import "./components/logo";
+
+@import "./components/hiro";
+
+
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";
+// @import "./components/reset";

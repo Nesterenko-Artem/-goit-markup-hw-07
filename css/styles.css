@@ -28,22 +28,22 @@ a {
 
 /* -------------------обнуление----------- */
 
-body {
+/* body {
    font-family: "Roboto", sans-serif;
    color: var(--brend-color);
    font-size: 14px;
    background-color: #fff;
    line-height: 1.5;
-}
+} */
 
-.cotener {
+/* .cotener {
    width: 1200px;
    padding: 0 15px;
    margin: 0 auto;
-   /* outline: solid #bd0a0a; */
-}
+   /* /* outline: solid #bd0a0a; 
+}  */
 
-.activ::after {
+/* .activ::after {
    content: "";
    position: absolute;
    display: block;
@@ -69,9 +69,9 @@ body {
    display: block;
    padding-top: 32px;
    padding-bottom: 32px;
-}
+} */
 
-.logo {
+/* .logo {
    font-family: "Raleway";
    font-weight: 700;
    font-size: 26px;
@@ -86,11 +86,11 @@ body {
 
 .logo > span {
    color: var(--color-icon);
-}
+} */
 
 /* ------------------nav-bar------------ */
 
-.nav-list.list {
+/* .nav-list.list {
    display: flex;
 }
 
@@ -140,11 +140,11 @@ body {
 
 .adress li:not(:first-child) {
    margin-left: 50px;
-}
+} */
 /* ------------------nav-bar------------ */
 
 /*----------------- hiro--------------- */
-.hiro {
+/* .hiro {
    color: #ffffff;
    text-align: center;
    padding-top: 200px;
@@ -164,7 +164,7 @@ body {
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
-}
+} */
 
 .btn {
    font-family: inherit;
@@ -201,7 +201,7 @@ body {
    background-color: var(--bgc-body);
 }
 
-.visually-hidden {
+/* .visually-hidden {
    position: absolute;
    white-space: nowrap;
    width: 1px;
@@ -212,7 +212,7 @@ body {
    clip: rect(0 0 0 0);
    clip-path: inset(50%);
    margin: -1px;
-}
+} */
 
 .list-section {
    display: flex;
