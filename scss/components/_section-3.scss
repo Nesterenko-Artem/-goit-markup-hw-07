@@ -1,13 +1,14 @@
 .bgc-nogreey {
    background: #f5f4fa;
 }
-.section-title {
+.section__title {
    color: $title-color;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
    letter-spacing: $let-spas;
    text-align: center;
+   margin-bottom: 50px;
 }
 .section-title.imag {
    padding-top: 94px;

@@ -1,4 +1,9 @@
+.section {
+   padding: 94px 0;
+}
+
 .section-title {
+   @extend %title;
    margin-bottom: 50px;
 }
 .thumb {

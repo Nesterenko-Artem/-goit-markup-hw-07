@@ -1,25 +1,18 @@
-.section {
-   padding: 94px 0;
-}
-
-.bgc-greey {
-   background-color: var(--bgc-body);
-}
 
 .list-section {
    display: flex;
    text-align: start;
 }
 
-.list-section .items {
+.list-section__items {
    width: calc((100%-90px) / 4);
    margin-right: 30px;
 }
-.list-section .items:last-child {
+.list-section__items:last-child {
    margin-right: 0;
 }
 
-.items-image {
+.list-section__image {
    height: 120px;
    display: flex;
    justify-content: center;
@@ -28,6 +21,9 @@
    background: #f5f4fa;
    border-radius: 4px;
 }
-section.unit {
+.unit {
    padding-top: 94px;
+}
+.list-section__title {
+   @extend %title;
 }

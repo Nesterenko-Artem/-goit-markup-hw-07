@@ -1,9 +1,14 @@
+.section__title{
+   @extend %title;
+ margin-bottom: 50px;
+}
+
 .company-list {
    display: flex;
    justify-content: space-between;
 }
 
-.company-list-link {
+.company-list__link {
    width: 170px;
    height: 92px;
    
@@ -19,9 +24,9 @@
    &:focus {
    color: $color-icon;
    border-color: $color-icon;
+   }
 }
-}
-.company-incons {
+.company-list__incons {
    fill: currentColor;
 }
 

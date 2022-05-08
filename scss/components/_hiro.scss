@@ -8,11 +8,12 @@
 
    background-color: #c4c4c4;
    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.5)), url(../images/bgimg.jpg);
+   background-size: cover;
 }
 // background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 //     url(../images/bg-hero.jpg);
 
-.hiro-title {
+.hiro__title {
    margin-bottom: 30px;
    font-weight: 900;
    font-size: 44px;

@@ -33,7 +33,7 @@ a {
   margin: -1px;
 }
 
-.list-title {
+.list-section__title, .section-title, .section__title {
   color: #212121;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -182,9 +182,10 @@ body {
   background-color: #c4c4c4;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.5))), url(../images/bgimg.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.5)), url(../images/bgimg.jpg);
+  background-size: cover;
 }
 
-.hiro-title {
+.hiro__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -260,14 +261,6 @@ body {
   fill: currentColor;
 }
 
-.section {
-  padding: 94px 0;
-}
-
-.bgc-greey {
-  background-color: var(--bgc-body);
-}
-
 .list-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,16 +268,16 @@ body {
   text-align: start;
 }
 
-.list-section .items {
+.list-section__items {
   width: calc((100%-90px) / 4);
   margin-right: 30px;
 }
 
-.list-section .items:last-child {
+.list-section__items:last-child {
   margin-right: 0;
 }
 
-.items-image {
+.list-section__image {
   height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,8 +293,12 @@ body {
   border-radius: 4px;
 }
 
-section.unit {
+.unit {
   padding-top: 94px;
+}
+
+.section {
+  padding: 94px 0;
 }
 
 .section-title {
@@ -353,13 +350,14 @@ section.unit {
   background: #f5f4fa;
 }
 
-.section-title {
+.section__title {
   color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .section-title.imag {
@@ -407,6 +405,10 @@ section.unit {
   margin-right: 0;
 }
 
+.section__title {
+  margin-bottom: 50px;
+}
+
 .company-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,7 +418,7 @@ section.unit {
           justify-content: space-between;
 }
 
-.company-list-link {
+.company-list__link {
   width: 170px;
   height: 92px;
   display: -webkit-box;
@@ -437,12 +439,12 @@ section.unit {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.company-list-link:hover, .company-list-link:focus {
+.company-list__link:hover, .company-list__link:focus {
   color: #2196f3;
   border-color: #2196f3;
 }
 
-.company-incons {
+.company-list__incons {
   fill: currentColor;
 }
 
